@@ -1,5 +1,5 @@
 # Abstract
-o Conventional cyber defense tools (intrusion detection systems and anti-virus) focus on at-risk components, traditional intrusion methodologies and observed system 				vulnerabilities.
+* Conventional cyber defense tools (intrusion detection systems and anti-virus) focus on at-risk components, traditional intrusion methodologies and observed system 		vulnerabilities.
 
 o Advanced Persistent Threat or APT is a new type of threat that is defined by an adversary that is more trained, better equipped and more informed about conventional   			cyber defense methods. The APT threat renders conventional methods insufficient to counter the attacks launched by this adversary.
 
