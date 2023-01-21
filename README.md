@@ -38,6 +38,14 @@ The table below illustrates a matrix with different tools to be used by the defe
 
 ![Table 1 : Courses of Action Matrix](courses_of_action_metrix.PNG)
 
+* Completeness equals resilience, which is the main goal of the defender in the face of persistent and creative attackers who continually improve their techniques.
+
+* The "zero-day" or "day one attack" exploit is a flawed approach that does not take into account the fact that the exploit is only one change in a larger process.
+
+* A defensive strategy of full use of indicators forces the attacker to readapt his approach to each attack. This means that the attacker's costs increase with each intrusion attempt.
+
+* Defenders can generate metrics of this resilience by measuring the performance and effectiveness of measures taken against the adversary.
+
 
 
 
