@@ -17,10 +17,14 @@ Based on the military Kill Chain, a new Kill Chain has been developed specifical
 This new Kill Chain is composed of the following steps: 
 
 * Reconnaissance: search, identification and selection of targets.
-* Weaponization - This is the act of coupling a deliverable with software to allow the adversary remote access to the environment. This is usually done using client applications such as PDF files that are used as the armed deliverable.
-* Delivery - Transmission of the weapon to the targeted environment. This is done via email attachments, USB sticks or websites.  
-* Exploitation - Once the weapon is transmitted to the victim. It can target an application, an operating system vulnerability by automatically executing code or exploit users directly.
-* Installation - the adversary can also remain in the environment and cause no apparent damage, but simply take information. This is achieved by installing a remote access Trojan  or backdoor on the victim's system.
+
+* Weaponization: This is the act of coupling a deliverable with software to allow the adversary remote access to the environment. This is usually done using client applications such as PDF files that are used as the armed deliverable.
+
+* Delivery: Transmission of the weapon to the targeted environment. This is done via email attachments, USB sticks or websites.  
+
+* Exploitation:  Once the weapon is transmitted to the victim. It can target an application, an operating system vulnerability by automatically executing code or exploit users directly.
+
+* Installation:  the adversary can also remain in the environment and cause no apparent damage, but simply take information. This is achieved by installing a remote access Trojan  or backdoor on the victim's system.
 
 
 
