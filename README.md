@@ -30,5 +30,8 @@ This new Kill Chain is composed of the following steps:
 
 * **Action on Objectives**: It is only at this stage that the intruder can carry out his real objective. Most often, intruders seek to extract confidential information or use the victim's system as a weapon to attack another victim.
 
+#Courses of Action
+
+
 
 
