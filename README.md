@@ -33,7 +33,11 @@ This new Kill Chain is composed of the following steps:
 # 3.3 Courses of Action
 The Intrusion kill Chain becomes an intelligence model for defenders as the enterprise's defensive capabilities are put in place to defend the resources the attacker is targeting. With this method, defenders can put in place procedures and investment plans to close the capability gap. This methodology is the foundation of intelligence-driven, allowing the defender to make decisions and take action based on intelligence and in-depth knowledge of the adversary. 
 
+The table below illustrates a matrix with different tools to be used by the defender according to the phase of the kill chain and also for what purpose these tools are used. As for example in the exploitation phase we find the host intrusion detection systems (HIDS) which can passively detect exploit, patching denies exploitation altogether and data execution prevention. It includes traditional systems like the network intrusion detection systems (NIDS) and the firewall access control lists (ACL).
+
+
 ![Table 1 : Courses of Action Matrix](courses_of_action_metrix.PNG)
+
 
 
 
