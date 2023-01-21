@@ -14,5 +14,14 @@ The Kill Chain is a schematic of the different states thought by the US military
 
 Based on the military Kill Chain, a new Kill Chain has been developed specifically for intrusions. This chain takes as a base that an intrusion implies that the adversary must be in possession of enough power to establish a presence in a trusted environment. 
 
+This new Kill Chain is composed of the following steps: 
+
+* Reconnaissance: search, identification and selection of targets.
+* Weaponization - This is the act of coupling a deliverable with software to allow the adversary remote access to the environment. This is usually done using client applications such as PDF files that are used as the armed deliverable.
+* Delivery - Transmission of the weapon to the targeted environment. This is done via email attachments, USB sticks or websites.  
+* Exploitation - Once the weapon is transmitted to the victim. It can target an application, an operating system vulnerability by automatically executing code or exploit users directly.
+* Installation - the adversary can also remain in the environment and cause no apparent damage, but simply take information. This is achieved by installing a remote access Trojan  or backdoor on the victim's system.
+
+
 
 
