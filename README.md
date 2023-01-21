@@ -31,7 +31,7 @@ This new Kill Chain is composed of the following steps:
 * **Action on Objectives**: It is only at this stage that the intruder can carry out his real objective. Most often, intruders seek to extract confidential information or use the victim's system as a weapon to attack another victim.
 
 # 3.3 Courses of Action
-The Intrusion Elimination Chain becomes an intelligence model for defenders as the enterprise's defensive capabilities are put in place to defend the resources the attacker is targeting. With this method, defenders can put in place procedures and investment plans to close the capability gap. This methodology is the foundation of intelligence-driven, allowing the defender to make decisions and take action based on intelligence and in-depth knowledge of the adversary. 
+The Intrusion kill Chain becomes an intelligence model for defenders as the enterprise's defensive capabilities are put in place to defend the resources the attacker is targeting. With this method, defenders can put in place procedures and investment plans to close the capability gap. This methodology is the foundation of intelligence-driven, allowing the defender to make decisions and take action based on intelligence and in-depth knowledge of the adversary. 
 
 
 
