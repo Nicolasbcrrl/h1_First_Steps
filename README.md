@@ -9,4 +9,8 @@
 
 * The accelerated evolution of threats, requires an investment in network defense and especially a defense model based on intelligence as highlighted by the use of the   Kill Chain.
 
+# 3.2 Intrusion Kill Chain
+La Kill Chain est une schématisation de différentes étatpes pensées par l'armée américain pour cibler et engager un adversaire, afin de créer les effets désirés. la Kill Chain se constitu des différentes étapes : trouver les potentiel cibles de l'adversaire, les localiser, les suivre et les observer, les cibler avec le moyen approprié pour créer l'effet voulu, engager l'adversaire et finalement évaluer les effets de l'opération. Illustré comme une chaine pour mettre en évidence qu'en cas de défaillance d'un maillon, cela entraine l'interuption compléte du processus.
+
+
 
