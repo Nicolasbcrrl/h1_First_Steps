@@ -69,6 +69,8 @@ When we use the command line, we must always keep in mind that we are always in 
 
 * The command "pwd" allows you to know in which directories you are. 
 
- $ pwd
+    $ pwd
 /home/tero
+
+
 
