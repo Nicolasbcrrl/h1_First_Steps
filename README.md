@@ -141,10 +141,62 @@ When we use the command line, we must always keep in mind that we are always in 
 ## Help
 > The **"man"** command allows you to show manual page of a command.
 
-    $ man ls # here we want to display the manual for the **"ls"** command
-   
-> 
+    $ man ls # here we want to display the manual for the "ls" command
 
+Commands has a small builtin help
+
+    $ ls --help
+    $ wget -h
+    
+## History and Guessing
+
+> When you type a command, you can use the tab key to complete the command or display the proposals
+
+    $ ls /etc/re[tab]
+    
+> The **"history"** command allows you to display all the commands that you have run
+    
+     $ history 
+     
+## Important directories
+
+<table>
+    <tr>
+        <td>Directory</td>
+        <td>Explanation</td>
+    </tr>
+  <tr>
+        <td>/</td>
+        <td>It is the root directory</td>
+    </tr>
+  <tr>
+        <td>/home/</td>
+        <td>It is constains home directories for all users</td>
+    </tr>
+  <tr>
+        <td>/home/usertest</td>
+        <td>It is the home directory for the user usertest</td>
+    </tr>
+  <tr>
+        <td>Directory</td>
+        <td>Explanation</td>
+    </tr>
+  <tr>
+        <td>/etc/</td>
+        <td>This directory contains all system wide settings</td>
+    </tr>
+  <tr>
+        <td>/media/</td>
+        <td>Automatically mounted partitions on your hard drive, as well as removable multimedia devices like CDs, digital cameras, USB sticks, etc.</td>
+    </tr>
+  <tr>
+        <td>/var/log</td>
+        <td>Directory in which all logs are stored</td>
+    </tr>
+</table>
+
+
+ 
     
 
 
