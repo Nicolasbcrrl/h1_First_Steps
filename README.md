@@ -57,7 +57,7 @@ The table below illustrates a matrix with different tools to be used by the defe
 [Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
 
 ---------------
-# Commande Line Basics Revisited
+## Commande Line Basics Revisited
 
 * Time passes but the use of the command line does not disappear. It is convenient, fast, easy to automate and easily accessible. 
 
@@ -65,7 +65,7 @@ The table below illustrates a matrix with different tools to be used by the defe
   * This simbol "$", is the user command prompt. It is placed automatically by the system.
   * The "#" symbol is a character for placing a comment. Everything that is put after it will be ignored by the system, as it is considered as text.
 
-## Moving and looking around
+### Moving and looking around
 
 When we use the command line, we must always keep in mind that we are always in a directory. By default when opening the command line, you will be in the working directory.
 
@@ -94,7 +94,7 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ ls /etc|less
     
-## File Manipulation 
+### File Manipulation 
 > **"nano"** is the easiest text editors. There is also **"pico"** as text editor.
 
     $ nano creatText.txt # creat a text file named creatText.txt
@@ -150,7 +150,7 @@ Commands has a small builtin help.
     $ ls --help
     $ wget -h
     
-## History and Guessing
+### History and Guessing
 
 > When you type a command, you can use the tab key to complete the command or display the proposals.
 
@@ -160,7 +160,7 @@ Commands has a small builtin help.
     
      $ history 
      
-## Important directories
+### Important directories
 
 <table>
     <tr>
@@ -197,7 +197,7 @@ Commands has a small builtin help.
     </tr>
 </table>
 
-## Administrative Commands
+### Administrative Commands
 
 So far we have seen basic commands with a very low privilege level. In this part we will see commands that require high privileges, because they have a direct impact on the system. They allow the installation and deletion of software, the creation of users and the management of privileges. These commands because of their high level of privilege, require the command **"sudo"** before the command.
 
@@ -221,7 +221,7 @@ So far we have seen basic commands with a very low privilege level. In this part
 
     $ sudo apt-get purge nethack # here we will remove the application named nethack
     
-# Sources
+## Sources
 
 [Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
 
