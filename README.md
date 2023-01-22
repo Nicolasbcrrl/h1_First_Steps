@@ -225,4 +225,9 @@ So far we have seen basic commands with a very low privilege level. In this part
 
 [Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
 
+-----------
+
+# Installation of Debian on VirtualBox
+
+For the installation of the Linus Debian operating system, I followed the tutorial available on [terokarvinen.com](https://terokarvinen.com/2023/information-security-2023/#h1-first-steps).
 
