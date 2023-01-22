@@ -125,5 +125,26 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ rm -r exampleFolder # remove a directory named exampleFolder
     
+## SSH Remote Control
+> The **"ssh"** command allows you to control a machine remotely.
+
+   $ ssh test@example.com # Here, username is test and server is example.com
+   
+> The **"ssh"** command allows you to disconnect to which you are connected
+
+    remotecomputer$ exit
+    
+> The **"scp -r"** command allows you to securely copy directory to a directory in remote machine.
+
+    $ scp -r oneDirectory test@example.com:public_html/
+
+## Help
+> The **"man"** command allows you to show manual page of a command.
+
+    $ man ls # here we want to display the manual for the **"ls"** command
+   
+> 
+
+    
 
 
