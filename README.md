@@ -63,14 +63,14 @@ The table below illustrates a matrix with different tools to be used by the defe
   * This simbol "$", is the user command prompt. It is placed automatically by the system.
   * The "#" symbol is a character for placing a comment. Everything that is put after it will be ignored by the system, as it is considered as text.
 
-# Moving and looking around
+## Moving and looking around
 
 When we use the command line, we must always keep in mind that we are always in a directory. By default when opening the command line, you will be in the working directory.
 
-* The command "pwd" allows you to know in which directories you are. 
+> The command "pwd" allows you to know in which directories you are. 
 
-    $ pwd
-/home/tero
+    $ pwd  # it will print your localisation
+
 
 
 
