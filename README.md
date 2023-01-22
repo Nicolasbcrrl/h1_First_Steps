@@ -218,5 +218,9 @@ So far we have seen basic commands with a very low privilege level. In this part
 > **"sudo apt-get purge"** allows you to remove a software.
 
     $ sudo apt-get purge nethack # here we will remove the application named nethack
+    
+# Sources
+
+[Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
 
 
