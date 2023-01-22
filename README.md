@@ -46,8 +46,13 @@ The table below illustrates a matrix with different tools to be used by the defe
 
 * Defenders can generate metrics of this resilience by measuring the performance and effectiveness of measures taken against the adversary.
 
+* The illustration below shows that at least one mitigation measure was implemented for three intrusion attempts. It also shows that attackers' techniques are evolving very quickly. This implies that defenders must also implement new mitigations. For example, in December the defenders managed to dig up the weaponry and block it. Unfortunately, the attackers managed to get through by evolving their technique and equipment. This shows that if the measures taken do not evolve, they become useless.
+
+
 ![Mitigation](mitigation.PNG)
 
+# Sources
+[Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
 
 
 
