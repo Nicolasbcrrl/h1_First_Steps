@@ -71,7 +71,7 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ pwd  # it will print your localisation
 
-> The **"ls"** command will allow you to see files and directories in the current directory
+> The **"ls"** command will allow you to see files and directories in the current directory.
 
     $ ls 
     
@@ -88,7 +88,7 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ less example.txt
 
-> The **"ls /etc|less"** command allows you to generate an output of all commands to be read on one screen at a time by sending the output to less
+> The **"ls /etc|less"** command allows you to generate an output of all commands to be read on one screen at a time by sending the output to less.
 
     $ ls /etc|less
     
@@ -109,7 +109,7 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ mv somefile newdir/
     
-> The **"cp -r"** command allows you to create a copy of a file or a directory 
+> The **"cp -r"** command allows you to create a copy of a file or a directory. 
 
     $ cp -r original copy
  
@@ -130,7 +130,7 @@ When we use the command line, we must always keep in mind that we are always in 
 
    $ ssh test@example.com # Here, username is test and server is example.com
    
-> The **"ssh"** command allows you to disconnect to which you are connected
+> The **"ssh"** command allows you to disconnect to which you are connected.
 
     remotecomputer$ exit
     
@@ -143,18 +143,18 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ man ls # here we want to display the manual for the "ls" command
 
-Commands has a small builtin help
+Commands has a small builtin help.
 
     $ ls --help
     $ wget -h
     
 ## History and Guessing
 
-> When you type a command, you can use the tab key to complete the command or display the proposals
+> When you type a command, you can use the tab key to complete the command or display the proposals.
 
     $ ls /etc/re[tab]
     
-> The **"history"** command allows you to display all the commands that you have run
+> The **"history"** command allows you to display all the commands that you have run.
     
      $ history 
      
@@ -195,8 +195,28 @@ Commands has a small builtin help
     </tr>
 </table>
 
+## Administrative Commands
 
- 
+So far we have seen basic commands with a very low privilege level. In this part we will see commands that require high privileges, because they have a direct impact on the system. They allow the installation and deletion of software, the creation of users and the management of privileges. These commands because of their high level of privilege, require the command **"sudo"** before the command.
+
+> **"sudo apt-get update"** allos you to update a list of available packages.
+
+    $ sudo apt-get update
+
+> **"apt-cache search"** allows you to search a software with some keywords. With this command you don't need to put **"sudo"**.
+
+    $ apt-cache search splendor
+
+> **"sudo apt-get -y install"** allows you to install softwares.
+
+    $ sudo apt-get -y install
+
+> To run an application 
+
+    $ nethack # it will run the application named nethack
     
+> **"sudo apt-get purge"** allows you to remove a software.
+
+    $ sudo apt-get purge nethack # here we will remove the application named nethack
 
 
