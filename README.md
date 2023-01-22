@@ -231,3 +231,4 @@ So far we have seen basic commands with a very low privilege level. In this part
 
 For the installation of the Linus Debian operating system, I followed the tutorial available on [terokarvinen.com](https://terokarvinen.com/2023/information-security-2023/#h1-first-steps).
 
+![vm](virtual_machine.PNG)
