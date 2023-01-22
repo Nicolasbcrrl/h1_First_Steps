@@ -67,10 +67,63 @@ The table below illustrates a matrix with different tools to be used by the defe
 
 When we use the command line, we must always keep in mind that we are always in a directory. By default when opening the command line, you will be in the working directory.
 
-> The command "pwd" allows you to know in which directories you are. 
+> The **"pwd"** command allows you to know in which directories you are. 
 
     $ pwd  # it will print your localisation
 
+> The **"ls"** command will allow you to see files and directories in the current directory
 
+    $ ls 
+    
+> The **"cd"** command allows you to change the directory. One way to remember this command is to memorize it using its full name "Change Directory".
+
+    $ cd exampledir/ # here we will be moved to the exampledir/ directory
+    
+> The **"cd .."** command allows you to return to the previous directory. For example if we are currently in the exampledir/ directory, the path will be home/test/exampledir. Now if we do the command "cd .." it will take us one directory up, to the directory test/ and the path will be home/test.  Note space between command "cd" and  "..".
+
+    $ cd ..
+
+> The **"less"** command allows you to see a file page by page, using this commands to :
+"space" shows next page, "b" shows previous page, "/" searches and "q" exits.
+
+    $ less example.txt
+
+> The **"ls /etc|less"** command allows you to generate an output of all commands to be read on one screen at a time by sending the output to less
+
+    $ ls /etc|less
+    
+## File Manipulation 
+> **"nano"** is the easiest text editors. There is also **"pico"** as text editor.
+
+    $ nano creatText.txt # creat a text file named creatText.txt
+
+> The **"mkdir" command allows you to creat a new directory.$
+
+    $ mkdir newfolder
+
+> The **"mv"** command allows you to change the name of a directory.
+
+    $ mv oldname newname
+    
+> The **"mv"** command can aloso use to move a directory or a file to another directory.
+
+    $ mv somefile newdir/
+    
+> The **"cp -r"** command allows you to create a copy of a file or a directory 
+
+    $ cp -r original copy
+ 
+> The **"rmdir"** command allows you to remove an empty directory.
+
+    $ rmdir emptydir
+    
+> The **"rm"** command allows you to remove a file.
+
+    $ rm example # remove a fil named example
+    
+> The **"rm -r"** command allows you to remove a directory and its contents.
+
+    $ rm -r exampleFolder # remove a directory named exampleFolder
+    
 
 
