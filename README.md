@@ -54,6 +54,13 @@ The table below illustrates a matrix with different tools to be used by the defe
 # Sources
 [Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 3.2 Intrusion Kill Chain and 3.3 Courses of Action](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
 
+---------------
+# Commande Line Basics Revisited
 
+* Time passes but the use of the command line does not disappear. It is convenient, fast, easy to automate and easily accessible. 
+
+* Before launching yourself in the world without user interface, that of the command line. You need to know some things: 
+  * This simbol "$", is the user command prompt. It is placed automatically by the system.
+  * The "#" symbol is a character for placing a comment. Everything that is put after it will be ignored by the system, as it is considered as text.
 
 
