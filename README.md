@@ -46,6 +46,8 @@ The table below illustrates a matrix with different tools to be used by the defe
 
 * Defenders can generate metrics of this resilience by measuring the performance and effectiveness of measures taken against the adversary.
 
+![Mitigation](mitigation.PNG)
+
 
 
 
