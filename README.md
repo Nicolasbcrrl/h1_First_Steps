@@ -109,7 +109,7 @@ When we use the command line, we must always keep in mind that we are always in 
     
 > The **"mv"** command can also use to move a directory or a file to another directory.
 
-    $ mv somefile newdir/
+    $ mv somefile /newdir/
     
 > The **"cp -r"** command allows you to create a copy of a file or a directory. 
 
