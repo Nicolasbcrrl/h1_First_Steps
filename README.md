@@ -107,7 +107,7 @@ When we use the command line, we must always keep in mind that we are always in 
 
     $ mv oldname newname
     
-> The **"mv"** command can aloso use to move a directory or a file to another directory.
+> The **"mv"** command can also use to move a directory or a file to another directory.
 
     $ mv somefile newdir/
     
