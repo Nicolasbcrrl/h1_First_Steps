@@ -263,3 +263,11 @@ In this level I used the command **"ls -a"** to display all files and directorie
      $ cat .hidden
 # Sources
 [https://overthewire.org/](https://overthewire.org/wargames/bandit/)
+
+-------
+
+# Installation of WebGoat
+
+For the installation of WebGoat, I followed the tutorial available on [terokarvinen.com](https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/)
+
+![wbgoat](webgoat.PNG)
