@@ -238,26 +238,26 @@ For the installation of the Linus Debian operating system, I followed the tutori
 # Bandit oh-five
 
 ## Level 0
-J'ai établis la connection ssh au port 2220 en utilisant la commande ci-dessous. Le **"-p"** représente le port. 
-    
+I established the ssh connection to port 2220 using the command below. The **"-p"** represents the port. 
+
     $ ssh bandit0@bandit.labs.overthewire.org -p 2220
     
 ## Level 0 -> 1
-Dans ce niveau j'ai utilisé la commande linux **"ls"** pour voir les fichiers disponibles dans le répertoir. En exécutant cette commande j'ai trouvé le fichier **"readme"**. Ensuite, j'ai utiliser la commande "nano" suivit du nom du fichier pou l'ouvrir et trouvé le mot de passe. Cependant, en utilisant la commmande **"cat"** nous avons directement un print du contenu du fichier ce qui accèlere la démarche de recherche.
+In this level I used the linux command **"ls"** to see the files available in the directory. By executing this command I found the file **"readme"**. Then I used the command "nano" followed by the name of the file to open it and find the password. However, by using the command **"cat"** we have directly a print of the content of the file which accelerates the search process.
 
      $ ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 ## Level 1 -> 2
-Dans ce niveau j'ai utilisé la commande linux **"ls"** pour voir les fichiers disponibles dans le répertoir. En exécutant cette commande j'ai trouvé le fichier **"-"**. Ensuite, j'ai utiliser la commande "cat" suivit du nom du fichier pou l'ouvrir et trouvé le mot de passe. Cependant, je n'ai pas réussi à voir le contenu. J'ai donc utilisé cette commande : 
+In this level I used the linux command **"ls"** to see the files available in the directory. By executing this command I found the file **"-"**. Then I used the command **"cat"** followed by the name of the file to open it and find the password. However, I could not see the content. So I used this command:  
 
     $ cat < - 
 
 ## Level 2 -> 3
-Dans ce niveau j'ai du wrappé le nom du fichier dans des guillemets pour trouver le mots de passe.
+In this level I had to wrap the file name in quotation marks to find the password.
 
     $ cat "spaces in this filename"
     
 ## Level 3 -> 4
-Dans ce niveauu j'ai utilisé la commande **"ls -a"** pour afficher tous les fichiers et répertoirs. Ensuite, j'ai utilisé la commande **"cd"** pour aller dans le répertoir **"inhere"**. Finalement, j'ai ouvert le fichier **"hidden"** avec la command **"cat"**.
+In this level I used the command **"ls -a"** to display all files and directories. Then I used the command **"cd"** to go to the directory **"inhere"**. Finally, I opened the file **"hidden "** with the command **"cat"
 
      $ cat .hidden
