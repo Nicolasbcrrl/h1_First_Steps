@@ -232,3 +232,32 @@ So far we have seen basic commands with a very low privilege level. In this part
 For the installation of the Linus Debian operating system, I followed the tutorial available on [terokarvinen.com](https://terokarvinen.com/2023/information-security-2023/#h1-first-steps).
 
 ![vm](virtual_machine.PNG)
+
+-----
+
+# Bandit oh-five
+
+## Level 0
+J'ai établis la connection ssh au port 2220 en utilisant la commande ci-dessous. Le **"-p"** représente le port. 
+    
+    $ ssh bandit0@bandit.labs.overthewire.org -p 2220
+    
+## Level 0 -> 1
+Dans ce niveau j'ai utilisé la commande linux **"ls"** pour voir les fichiers disponibles dans le répertoir. En exécutant cette commande j'ai trouvé le fichier **"readme"**. Ensuite, j'ai utiliser la commande "nano" suivit du nom du fichier pou l'ouvrir et trouvé le mot de passe. Cependant, en utilisant la commmande **"cat"** nous avons directement un print du contenu du fichier ce qui accèlere la démarche de recherche.
+
+     $ ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+## Level 1 -> 2
+Dans ce niveau j'ai utilisé la commande linux **"ls"** pour voir les fichiers disponibles dans le répertoir. En exécutant cette commande j'ai trouvé le fichier **"-"**. Ensuite, j'ai utiliser la commande "cat" suivit du nom du fichier pou l'ouvrir et trouvé le mot de passe. Cependant, je n'ai pas réussi à voir le contenu. J'ai donc utilisé cette commande : 
+
+    $ cat < - 
+
+## Level 2 -> 3
+Dans ce niveau j'ai du wrappé le nom du fichier dans des guillemets pour trouver le mots de passe.
+
+    $ cat "spaces in this filename"
+    
+## Level 3 -> 4
+Dans ce niveauu j'ai utilisé la commande **"ls -a"** pour afficher tous les fichiers et répertoirs. Ensuite, j'ai utilisé la commande **"cd"** pour aller dans le répertoir **"inhere"**. Finalement, j'ai ouvert le fichier **"hidden"** avec la command **"cat"**.
+
+     $ cat .hidden
