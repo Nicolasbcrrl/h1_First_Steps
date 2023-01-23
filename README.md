@@ -271,3 +271,12 @@ In this level I used the command **"ls -a"** to display all files and directorie
 For the installation of WebGoat, I followed the tutorial available on [terokarvinen.com](https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/)
 
 ![wbgoat](webgoat.PNG)
+
+## Hacker warmup
+
+### General : HTTP Basics
+I managed to find the magic number by searching in the HTTP requests after putting a magic number at random.
+
+### General : Developer tools 
+I managed to do the tasks requested in chapter 4 and 6 thanks to the developer tools offered by the browser.
+
