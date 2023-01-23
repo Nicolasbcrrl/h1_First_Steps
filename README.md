@@ -276,6 +276,7 @@ For the installation of WebGoat, I followed the tutorial available on [terokarvi
 
 ### General : HTTP Basics
 I managed to find the magic number by searching in the HTTP requests after putting a magic number at random.
+
 ![magic_num](magic_num.PNG)
 
 ### General : Developer tools 
