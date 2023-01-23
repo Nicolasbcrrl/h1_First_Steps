@@ -282,6 +282,6 @@ I managed to find the magic number by searching in the HTTP requests after putti
 ### General : Developer tools 
 I managed to do the tasks requested in chapter 4 and 6 thanks to the developer tools offered by the browser.
 
-![phone_num](phone_num.PNG)
+![phone_home](phone_home.PNG)
 
 ![network_num](network_num.PNG)
