@@ -261,6 +261,20 @@ In this level I had to wrap the file name in quotation marks to find the passwor
 In this level I used the command **"ls -a"** to display all files and directories. Then I used the command **"cd"** to go to the directory **"inhere"**. Finally, I opened the file **"hidden "** with the command **"cat"**
 
      $ cat .hidden
+     
+## Level 4 -> 5
+This level required a bit more reflexion and research to find the password. To solve this level I first used the following command to access the **"inhere"** directory. 
+
+    $ cd inhere/
+
+Arrived in the right directory I had to find the only file readable for a human. So I had to find a file being of type **"ASCII text"**. For that I used the command **"file"** which allows to determine the type of the file which one transmits to him. Moreover, to save time and avoid making one file after the other, I used this command :
+
+    $ file ./-file*
+    
+With this command we want the type of all files located in the directory starting with **"-file"**. Then, when we have found the appropriate file we just have to do the command below to find the password.
+
+    $ cd <-file0 # I don't want to spoil ^_^
+
 # Sources
 [https://overthewire.org/](https://overthewire.org/wargames/bandit/)
 
