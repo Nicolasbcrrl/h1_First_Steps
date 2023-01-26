@@ -252,7 +252,7 @@ Now comes the choice of the size of the hard disk, the type of hard disk file an
 
 Following the finalization of the creation of the virtual machine, I now need an operating system to run my virtual machine. For I downloaded my machine thanks to this [link](debian-live-11.6.0-amd64-xfce+nonfree.iso) that the author of the tutorial provided. After the download, I went to the settings of the virtual machine under the storage tab. Then, I clicked the disk icon under the option **"controlor : IDE"** and I then chose in **"optical drive"** the file that I downloaded from Debian. After that I was able to start my virtual machine.
 
-![os](os.PNG)
+![os](os_full.PNG)
 
 ##Boot
 
