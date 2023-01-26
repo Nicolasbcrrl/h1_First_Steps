@@ -323,13 +323,14 @@ For this exercise I spent a lot of time understanding and trying to find the mag
 ![magic_num](magic_num.PNG)
 
 ### General : Developer tools 
-I managed to do the tasks requested in chapter 4 and 6 thanks to the developer tools offered by the browser.
-Pour la tâche du chapitre 4 j'ai denouveau utilisé la developer tools window en y accèdant avec la touche F12. J'ai alors copier la commande demandé dans la console en utilisant la funciton JavaScritp **"console.log()"**, ce qui a donné ceci : 
+For the task of chapter 4 I used again the developer tools window by accessing it with the F12 key. I then copied the requested command to the console using the JavaScritp **"console.log()"** funciton, which gave this : 
 
     $ console.log(webgoat.customjs.phoneHome())
     
-cela ma ensuite retourner la réponse attendu comme le montre le secreenshot ci-dessous.
+it can then return the expected answer as shown in the secreenshot below.
 
 ![phone_home](phone_home.PNG)
+
+For the task in chapter 6, I used exactly the same process as for the exercise in the HTTP Basics chapter. That is, I used the developer tools window and then went to the **"Network"** tab. When I clicked on the button, a request named in a different way appeared, **"network"** I then clicked on it and I went to the tab **"Request"** located on the right. In this tab I could find the requested networkNum.
 
 ![network_num](network_num.PNG)
