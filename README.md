@@ -317,12 +317,18 @@ For the installation of WebGoat, I followed the tutorial available on [terokarvi
 ## Hacker warmup
 
 ### General : HTTP Basics
-I managed to find the magic number by searching in the HTTP requests after putting a magic number at random.
+
+For this exercise I spent a lot of time understanding and trying to find the magic number. Looking at the developer tools window that you can open by pressing F12, under the **"Network "** tab I saw all the requests that the client and the server were exchanging. After 15 minutes, I decided to put a random number and see what was happening with the requests. That's when I saw a request different from the others, **"attack2"**. I then clicked on it and went to the request tab in the right hand menu and that's where I found the magic number.
 
 ![magic_num](magic_num.PNG)
 
 ### General : Developer tools 
 I managed to do the tasks requested in chapter 4 and 6 thanks to the developer tools offered by the browser.
+Pour la tâche du chapitre 4 j'ai denouveau utilisé la developer tools window en y accèdant avec la touche F12. J'ai alors copier la commande demandé dans la console en utilisant la funciton JavaScritp **"console.log()"**, ce qui a donné ceci : 
+
+    $ console.log(webgoat.customjs.phoneHome())
+    
+cela ma ensuite retourner la réponse attendu comme le montre le secreenshot ci-dessous.
 
 ![phone_home](phone_home.PNG)
 
