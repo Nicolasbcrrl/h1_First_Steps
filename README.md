@@ -233,17 +233,26 @@ For the installation of the Linus Debian operating system, I followed the tutori
 
 Before starting the installation of the virtual machine, I had to download the free virtualization software **"Virtual Box"**, but there is VMware which is not free. 
 
-After installing Virtual Box, I had to create a new virtual machine by clicking on the **"New "** option. This action will open a new window, through which I will be able to put the name, the type of operating system, the target folder to store the files of the future virtual machine, the version of the bone, the choice of the size of the memory and choose a hard disk. 
+After installing Virtual Box, I had to create a new virtual machine by clicking on the **"New "** option.
+
+![new](nouvelle.PNG)
+
+This action will open a new window, through which I will be able to put the name, the type of operating system, the target folder to store the files of the future virtual machine, the version of the bone, the choice of the size of the memory and choose a hard disk. 
 - For the choice of the size of the memory I put as indicated in the tutorial above, 4000 MB. However, this choice can be changed depending on the size of your RAM. In my case having 16 GB of RAM, this did not pose a problem. The more you increase the size of your virtual machine, the faster it will go.
 - Concerning the creation of the hard disk, I also chose to create a virtual hard disk as said in the tutorial. 
+
+![vm_name](vm_name.PNG)
 
 Now comes the choice of the size of the hard disk, the type of hard disk file and the management of the storage on the physical hard disk. 
 - I chose to have a disk with a size of 20 GB, Debian recommends at least 8 GB. It all depends again on the space available on your physical machine. 
 - Then for the choice of the type of hard disk file, I chose the VDI option (Virtual Hard Disk).
 - For the storage management I chose the dynamically allocated option, in order not to reserve a complete space on my physical computer, while the virtual machine uses only 1/4 of the space.
 
+![disk](disk_options.PNG)
+
 Following the finalization of the creation of the virtual machine, I now need an operating system to run my virtual machine. For I downloaded my machine thanks to this [link](debian-live-11.6.0-amd64-xfce+nonfree.iso) that the author of the tutorial provided. After the download, I went to the settings of the virtual machine under the storage tab. Then, I clicked the disk icon under the option **"controlor : IDE"** and I then chose in **"optical drive"** the file that I downloaded from Debian. After that I was able to start my virtual machine.
 
+![os](os.PNG)
 
 ##Boot
 
