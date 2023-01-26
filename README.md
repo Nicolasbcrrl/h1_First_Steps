@@ -256,7 +256,7 @@ Following the finalization of the creation of the virtual machine, I now need an
 
 ##Boot
 
-At boot time, I choose the basic option "Debian GNU/Linux Live (Kernel 4.19.0-13-amd64). Then I installed Debian, because Debian offers you a trial version to see if everything works properly. After the installation, I configured the keyboard, chose the hard disk by choosing to erase all its contents and set up my user profile. 
+At boot time, I choose the basic option **"Debian GNU/Linux Live (Kernel 4.19.0-13-amd64)"**. Then I installed Debian, because Debian offers you a trial version to see if everything works properly. After the installation, I configured the keyboard, chose the hard disk by choosing to erase all its contents and set up my user profile. 
 
 
 ![vm](virtual_machine.PNG)
